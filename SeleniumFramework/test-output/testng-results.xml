@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2019-08-02T02:57:09Z" name="Suite" finished-at="2019-08-02T02:57:37Z" duration-ms="28249">
     <groups>
     </groups>
@@ -22,4 +23,26 @@
       </class> <!-- test.TestNG_Demo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+=======
+  <suite started-at="2019-08-01T23:47:37Z" name="Default suite" finished-at="2019-08-01T23:48:06Z" duration-ms="28523">
+    <groups>
+    </groups>
+    <test started-at="2019-08-01T23:47:37Z" name="Default test" finished-at="2019-08-01T23:48:06Z" duration-ms="28523">
+      <class name="test.TestNG_Demo">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.TestNG_Demo@20d525]" started-at="2019-08-01T23:47:37Z" name="setUpTest" finished-at="2019-08-01T23:47:40Z" duration-ms="2600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="googleSearch()[pri:0, instance:test.TestNG_Demo@20d525]" started-at="2019-08-01T23:47:40Z" name="googleSearch" finished-at="2019-08-01T23:48:05Z" duration-ms="25655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.TestNG_Demo@20d525]" started-at="2019-08-01T23:48:05Z" name="tearDownTest" finished-at="2019-08-01T23:48:06Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.TestNG_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> refs/remotes/origin/master
 </testng-results>
